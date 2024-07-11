@@ -13,15 +13,15 @@ Esta aplicação web utiliza a [PokéAPI](https://pokeapi.co/) para exibir infor
 ## Instalação e Uso
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/JosielJrr/Pokedex.git
-2. Abra o arquivo index.html em seu navegador.
+   git clone https://github.com/JosielJrr/pokedex.git
+2. Abra o arquivo `index.html` em seu navegador.
 
 ## Como Contribuir
 Se você deseja contribuir com melhorias ou novas funcionalidades:
 1. Faça um fork do repositório.
-2. Crie uma branch para sua feature (git checkout -b feature/nova-feature).
-3. Commit suas mudanças (git commit -am 'Adicionando nova feature').
-4. Push para a branch (git push origin feature/nova-feature).
+2. Crie uma branch para sua feature `git checkout -b feature/nova-feature`.
+3. Commit suas mudanças `git commit -am 'Adicionando nova feature'`.
+4. Push para a branch `git push origin feature/nova-feature`.
 5. Crie um novo Pull Request.
 
 ## Notas Adicionais
