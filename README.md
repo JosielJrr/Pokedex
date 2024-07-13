@@ -12,8 +12,9 @@ Esta aplicação web utiliza a [PokéAPI](https://pokeapi.co/) para exibir infor
 
 ## Instalação e Uso
 1. Clone o repositório:
-   ```bash
+   ```
    git clone https://github.com/JosielJrr/pokedex.git
+   ```
 2. Abra o arquivo `index.html` em seu navegador.
 
 ## Como Contribuir
