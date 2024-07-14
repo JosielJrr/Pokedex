@@ -4,10 +4,13 @@ body {
   color: #333333;
 }
 
-
 .pokemon-head {
   display: flex;
   align-items: center;
+}
+
+header {
+  margin-bottom: 3rem;
 }
 
 header .pokemon-title {
