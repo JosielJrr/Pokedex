@@ -4,6 +4,7 @@ Esta aplicação web utiliza a [PokéAPI](https://pokeapi.co/) para exibir infor
 ## Funcionalidades
 - **Lista de Pokémon:** Exibe uma lista paginada de Pokémon.
 - **Carregar Mais:** Botão para carregar mais Pokémon à medida que você rola pela lista.
+- **Checar Pokémon:** Uma nova página permite ver informações detalhadas sobre um Pokémon específico.
 
 ## Tecnologias Utilizadas
 - HTML5
@@ -15,7 +16,8 @@ Esta aplicação web utiliza a [PokéAPI](https://pokeapi.co/) para exibir infor
    ```
    git clone https://github.com/JosielJrr/pokedex.git
    ```
-2. Abra o arquivo `index.html` em seu navegador.
+2. Abra o arquivo `index.html` em seu navegador para acessar a lista de Pokémons.
+3. Para acessar a página de detalhes do Pokémon, abra o arquivo `getPokemon.html` em seu navegador.
 
 ## Como Contribuir
 Se você deseja contribuir com melhorias ou novas funcionalidades:

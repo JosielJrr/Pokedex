@@ -1,5 +1,26 @@
 @import url('global.css');
 
+header {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0;
+}
+
+header a {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: navy;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: #0000CD;
+    color: white;
+}
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -146,6 +167,12 @@
     background-color: navy;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #0000CD;
+    color: white;
 }
 
 @media screen and (min-width: 380px) {

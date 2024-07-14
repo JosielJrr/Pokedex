@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <title>Get Pokemon</title>
+
+  <!-- Font Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/getPokemon.css">
+</head>
+
+<body>
+  <header class="pokemon-head">
+    <h3 class="pokemon-title">GetPokemon:</h3>
+    <select id="select-options">
+      <option value="">Selecione</option>
+      <!-- Opções de Pokemons Aqui -->
+    </select>
+  </header>
+
+  <main class="pokemon-main">
+    <h1 class="pokemon-properties__value" id="pokemon-name">-</h1>
+    <div class="pokemon-row">
+      <div class="pokemon-properties">
+        <img src="https://via.placeholder.com/150x150" alt="Pokemon" class="pokemon-image" id="pokemon-image" />
+      </div>
+      <div class="pokemon-properties">
+        <h2 class="pokemon-subtitle">Propriedades:</h2>
+        <ul class="pokemon-properties__list">
+          <li class="pokemon-properties__item">
+            <strong class="pokemon-properties__label">Altura:</strong>
+            <span class="pokemon-properties__value" id="pokemon-height">-</span>
+          </li>
+          <li class="pokemon-properties__item">
+            <strong class="pokemon-properties__label">Peso:</strong>
+            <span class="pokemon-properties__value" id="pokemon-weight">-</span>
+          </li>
+          <li class="pokemon-properties__item">
+            <strong class="pokemon-properties__label">Experiência:</strong>
+            <span class="pokemon-properties__value" id="pokemon-experience">-</span>
+          </li>
+          <li class="pokemon-properties__item">
+            <strong class="pokemon-properties__label">Habilidades:</strong>
+            <span class="pokemon-properties__value" id="pokemon-abilities">-</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Essa aplicação usa <a href="https://pokeapi.co/" target="_blank" title="Abrir pokeapi.co"
+      rel="noreferrer">Pokeapi.co</a>
+  </footer>
+
+  <script src="assets/js/getPokemon/pokemonService.js"></script>
+  <script src="assets/js/getPokemon/pokemon.js"></script>
+  <script src="assets/js/getPokemon/getPokemon.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+@import url('global.css');
+
+body {
+  color: #333333;
+}
+
+
+.pokemon-head {
+  display: flex;
+  align-items: center;
+}
+
+header .pokemon-title {
+  margin: 0 4px;
+}
+
+.pokemon-main {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 1rem;
+}
+
+.pokemon-row {
+  display: flex;
+  max-width: 100%;
+}
+
+.pokemon-properties {
+  width: 100%;
+}
+
+.pokemon-properties:first-child {
+  text-align: center;
+}
+
+.pokemon-image {
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+  height: 9.375rem;
+}
+
+.pokemon-subtitle {
+  margin: 0.5rem;
+  font-size: 1.125rem;
+}
+
+.pokemon-properties__list {
+  list-style: none;
+  padding: 0 1rem 0 1rem;
+}
+
+.pokemon-properties__item {
+  margin: 4px 0px;
+}
+
+.pokemon-properties__label {
+  font-weight: 500;
+}
+
+.pokemon-properties__value {
+  color: #00008B;
+}
+
+.footer {
+  margin-top: 3.125rem;
+  text-align: center;
+}
+
+a {
+  padding: .25rem .5rem;
+  margin: .25rem 0;
+  font-size: .625rem;
+  color: white;
+  background-color: navy;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #0000CD;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .pokemon-head {
+    justify-content: center;
+  }
+
+  .pokemon-row {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .pokemon-properties {
+    text-align: center;
+  }
+
+  .pokemon-properties__list {
+    padding-left: 0;
+  }
+}
