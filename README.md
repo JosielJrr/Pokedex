@@ -27,5 +27,5 @@ Se você deseja contribuir com melhorias ou novas funcionalidades:
 4. Push para a branch `git push origin feature/nova-feature`.
 5. Crie um novo Pull Request.
 
-## Notas Adicionais
-Este projeto foi desenvolvido como parte da Formação JavaScript Developer da [Digital Innovation One](https://www.dio.me/).
+## Nota Adicional
+- Este projeto foi desenvolvido como parte da Formação JavaScript Developer da [Digital Innovation One](https://www.dio.me/).
