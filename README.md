@@ -28,4 +28,4 @@ Se você deseja contribuir com melhorias ou novas funcionalidades:
 5. Crie um novo Pull Request.
 
 ## Notas Adicionais
-Esse projeto foi desenvolvido na Formação JavaScript Developer da Digital Innovation One.
+Este projeto foi desenvolvido como parte da Formação JavaScript Developer da [Digital Innovation One](https://www.dio.me/).
